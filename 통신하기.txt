@@ -1,0 +1,25 @@
+node
+
+바탕화면 > serial 폴더 >  rtuTx
+
+sendDataFunc > let Data = []
+ h = 0x
+상위/하위
+상위 + 하위 = 0x1000
+crp는 자동으로 생성
+0
+앞의 두 데이터가 다르면 통신이 안된거임
+세번째 데이터는 데이터의 갯수를 나타냄
+
+
+a(com4..), boudRate:b, let Data 
+세개만 바꾸면 됨
+
+
+
+
+
+1. serial 이라는 폴더로 이동해볼께요(명령어: cd serial)
+2. 장비랑 통실할수있는 모듈을 라즈베리파이에 설치할께요(명령어: npm i serialport)
+3. rtuTx.js 수정한다 (명령어: vi rtuTx.js) + (insert 키를 누르면 수정 및 삽입 가능해짐)
+4. 수정 후 저장 (명령어: esc 입력 후 :wq) 번외(강제 종료: esc 입력 후 :q!) 

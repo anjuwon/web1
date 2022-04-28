@@ -1,0 +1,26 @@
+if문 조건 , 경우의수 생각하기
+
+// 현재재고량 필요수량이랑 비교
+		
+		// 대상자 현재/필요/적정재고
+		// 현재 < 필요 red
+		// 현재 > 필요 black
+		// 현재 < 적정재고 blue
+		// 현재 > 적정재고 black
+		
+		
+		// 현재 < 필요 && 현재 < 적정재고    ==> red  
+		if( (Number(current.val()) < Number(need.val())) && (Number(current.val()) < Number(fit.val()))){
+			current.parent().addClass("red");
+		}
+		// 현재 < 필요 && 현재 > 적정재고    ==> red
+		else if((Number(current.val()) < Number(need.val())) && (Number(current.val()) > Number(fit.val()))){
+			current.parent().addClass("red");
+		}
+		// 현재 > 필요 && 현재 < 적정재고    ==> blue
+		else if((Number(current.val()) > Number(need.val())) && (Number(current.val()) < Number(fit.val()))){
+			current.parent().addClass("blue");
+		}
+
+&&	 AND
+||           OR

@@ -1,0 +1,76 @@
+JAVA , C# 기타등등
+
+변수 형
+String = "문자열"
+float = "실수"
+int = "정수"
+char = "문자"
+boolean = "참 또는 거짓"
+
+
+객체지향
+클래스 -> 붕어빵틀 = 객체의 집합
+변수 -> 붕어빵 = 하나의 객체
+
+가비지 컬렉션
+컴퓨터는 자료구조상 메모리영 힙영역
+
+접근제어자 = 보안
+public = "공용의"
+protected = "내부에서만"
+private = "나혼자만 가능해" 뭔가 숨겨야해
+
+
+캡슐화(데이터 은닉화)
+함수(받을 데이터)
+
+조건문, 반복문
+조건문 if
+반복문 for, while
+
+상속
+ReportVo 자식이 DefaultVo 부모의 extends 상속을 받았다.
+
+오버로딩
+함수를 재정의
+
+오버라이딩(상속관계의)
+함수를 재정의
+
+인터페이스
+가상 함수, 무형의 함수를 모아둔 집합
+
+쓰레드
+일을 처리 할 수 있는 자원 사용(업무 지시와 같음)
+
+
+
+
+
+
+
+Spring = java 기반 웹 프레임워크 (전자정부프레임워크)
+
+web application server (base/custmer/list.nes)
+
+Servlet (base =" kr.co.nescorp.web.mes\"<- Controller 경로 
+
+Controller(Controller 제어) (base/custmer/list.nes)
+
+Service (인터페이스 / 상속/ 오버라이딩)
+
+Mapper Service 와 xml을 연결 
+
+xml(Model 데이터) <= SELECT, INSERT, UPDATE, DELETE
+
+Mapper
+
+Service
+
+Controller
+
+Jsp (View 화면)
+
+
+소프트웨어 디자인 패턴 Model View Controller (MVC) => 정부24
+		      Model View ViewModel (MVVM) => 인스타그램
